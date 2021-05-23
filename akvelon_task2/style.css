@@ -1,0 +1,57 @@
+@import "./base.css";
+
+body {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.form {
+    margin: auto;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+
+    background-color: rgb(228, 225, 225);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+}
+
+.container__block {
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+
+}
+
+.register {
+    color: #00a4e4;
+    margin-bottom: 20px;
+}
+
+.registerbtn {
+    width: 70px;
+    height: 40px;
+
+    color: #fff;
+    background-color: #00a4e4;
+
+    border-radius: 10px;
+}
+
+.input {
+    border: 1px solid #000000;
+    height: 30px;
+}

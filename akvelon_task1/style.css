@@ -1,0 +1,76 @@
+@import "/base.css";
+
+.background {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: antiquewhite;
+}
+
+.slider-block {
+    width: 600px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-radius: 10px;
+
+    background-color: rgb(136, 155, 134);
+}
+
+.left-button,
+.right-button {
+    width: 50px;
+    height: 100px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    cursor: pointer;
+
+    background-color: aqua;
+    user-select: none;
+}
+
+.right-button:hover, .left-button:hover {
+    border: 6px ridge #3352dd;
+
+    transition-duration: 0.2s;
+}
+
+.picture {
+    height: 320px;
+    width: 450px;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background-color: brown;
+
+    user-select: none;
+}
+
+.arrow-toright, .arrow-toleft {
+    width: 20px;
+    height: 20px;
+}
+
+.arrow-toright {
+    transform: rotate(180deg);
+}
+
+.picture__img {
+    background-size: cover;
+}
